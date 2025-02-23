@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        @keyframes fade-in {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .fade-in {
+            animation-name: fade-in;
+            animation-duration: 8s;
+        }
+    </style>
+    <link rel="shortcut icon" href="Logobgr.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saksham Pencils</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="Logobgr.png" alt="Saksham Pencils Logo" class="logo">
+            <div class="nav">
+                <a href="home.html" class="page">Home</a>
+                <a href="product.html">Products</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="Account/account.html">Account</a>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="hero-image">
+            <h1 id="hero-text">Welcome to Saksham Pencils!</h1>
+            <img id="hero-img" src="Pencil.png" alt="Pencil">
+        </div>
+        <br><br><br><br><br><br>
+        <div class="message">
+            <h2>Explore our wide range of stationery items!</h2>
+            <p>Visit our <a href="product.html" id="products-link">Products Page</a> to see more.</p>
+        </div>
+    </div>
+    <script>
+        window.onload = function () {
+            document.getElementById('hero-text').classList.add('fade-in');
+            document.getElementById('hero-img').classList.add('fade-in');
+        };
+    </script>
+
+</body>
+
+</html>

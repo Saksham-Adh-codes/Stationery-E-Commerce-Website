@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    .fade-in {
+      animation-name: fade-in;
+      animation-duration: 3s;
+    }
+  </style>
+  <link rel="shortcut icon" href="Logobgr.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/about.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/navigation.css">
+  <title>Saksham Pencils</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="Logobgr.png" alt="Saksham Pencils Logo" class="logo">
+      <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="product.html">Products</a>
+        <a href="about.html" class="page">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="Account/account.html">Account</a>
+      </div>
+    </div>
+    <div class="main" id="main">
+      <div class="content">
+        <h1>About Us</h1>
+        <p>Saksham Pencils is a stationery shop that offers a wide range of high-quality, eco-friendly, and stylish
+          pencils and other writing instruments. We are passionate about providing our customers with the best tools for
+          their creative and professional endeavors.</p>
+        <p>We started our business in 2024 with a vision to create a brand that celebrates the art of writing and
+          drawing. We believe that pencils are not just ordinary objects, but powerful tools that can inspire,
+          communicate, and express. That's why we carefully select our products from the best manufacturers around the
+          world, and ensure that they meet our standards of quality, sustainability, and design.</p>
+        <p>At Saksham Pencils, we also care about giving back to the community and the environment. We donate a
+          percentage of our profits to various educational and environmental causes, and we use recycled and
+          biodegradable materials for our packaging and operations. We are proud to be a certified A Corporation, a
+          global movement of businesses that balance purpose and profit.</p>
+        <a href="contact.html">Get in Touch</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>© 2024 Saksham Pencils. All rights reserved. | <a href="privacy.html">Privacy Policy</a> | <a
+        href="terms.html">Terms of Service</a></p>
+  </div>
+  </div>
+  <script>
+    window.onload = function () {
+      document.getElementById('main').classList.add('fade-in');
+    };
+  </script>
+</body>
+
+</html>
