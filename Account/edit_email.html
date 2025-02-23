@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="../Logobgr.png" type="image/x-icon">    
+    <script src="account.js" defer></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/navigation.css">
+    <link rel="stylesheet" href="account.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Email</title>
+</head>
+
+<body>
+    <div class="header">
+        <img src="../Logobgr.png" alt="Logo" class="logo">
+        <div class="nav">
+            <a href="account.html" class="page">Back to Account</a>
+        </div>
+    </div>
+
+    <div class="account-container">
+        <h1>Edit Email</h1>
+        <form id="editEmailForm" action="update_email.php" method="post">
+            <label for="newEmail">New Email:</label>
+            <input type="email" id="newEmail" name="newEmail" required>
+            <button type="submit">Update Email</button>
+        </form>
+    </div>
+</body>
+
+</html>
